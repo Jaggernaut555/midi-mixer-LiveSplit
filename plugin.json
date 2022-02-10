@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/midi-mixer-plugin/plugin.schema.json",
+  "version": "1.0.0",
+  "id": "ca.jaggernaut.midi-mixer.livesplit",
+  "name": "LiveSplit",
+  "type": "node",
+  "main": "lib/index.js",
+  "icon": "livesplit.png",
+  "settings": {
+    "livesplitip": {
+      "label": "LivesSplit IP",
+      "type": "text",
+      "fallback": "127.0.0.1"
+    },
+    "livesplitport": {
+      "label": "LivesSplit IP",
+      "type": "text",
+      "fallback": "16834"
+    }
+  },
+  "author": "Jaggernaut"
+}
