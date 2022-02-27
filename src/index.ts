@@ -77,13 +77,6 @@ async function init() {
     let ip: string = settings["livesplitip"];
     let port: string = settings["livesplitport"];
 
-    if (!ip) {
-        ip = "127.0.0.1";
-    }
-    if (!port) {
-        port = "16834";
-    }
-
     try {
         // Initialize client with LiveSplit Server's IP:PORT
         client = new LiveSplitClient(`${ip}:${port}`);

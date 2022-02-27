@@ -13,7 +13,7 @@
       "fallback": "127.0.0.1"
     },
     "livesplitport": {
-      "label": "LivesSplit IP",
+      "label": "LivesSplit Port",
       "type": "text",
       "fallback": "16834"
     }
